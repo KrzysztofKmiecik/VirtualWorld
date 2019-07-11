@@ -1,8 +1,9 @@
 public class Fox extends Animal {
+    public final static int POWER = 3;
+    public final static int INITIATIVE = 7;
 
-
-    public Fox(final int power, final int initiative, final Position position, final World world) {
-        super(power, initiative, position, world);
+    public Fox(final Position position, final World world) {
+        super(POWER, INITIATIVE, position, world);
     }
 
     public void action() {

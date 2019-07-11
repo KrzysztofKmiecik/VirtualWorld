@@ -1,6 +1,8 @@
 public class Guarana extends Plant {
-    public Guarana(final int power, final int initiative, final Position position, final World world) {
-        super(power, initiative, position, world);
+    public final static int POWER = 0;
+
+    public Guarana(final Position position, final World world) {
+        super(POWER, position, world);
     }
 
     public void action() {

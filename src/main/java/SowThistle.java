@@ -1,6 +1,8 @@
 public class SowThistle extends Plant {
-    public SowThistle(final int power, final int initiative, final Position position, final World world) {
-        super(power, initiative, position, world);
+    public final static int POWER = 0;
+
+    public SowThistle(final Position position, final World world) {
+        super(POWER, position, world);
     }
 
     public void action() {

@@ -1,6 +1,11 @@
 public class Wolf extends Animal {
-    public Wolf(final int power, final int initiative, final Position position, final World world) {
-        super(power, initiative, position, world);
+    public final static  int  POWER=9;
+    public final static  int  INITIATIVE=9;
+
+
+
+    public Wolf( final Position position,final World world) {
+        super(POWER,INITIATIVE, position, world);
     }
 
     public void action() {

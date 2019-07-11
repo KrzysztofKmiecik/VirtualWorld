@@ -1,6 +1,9 @@
 public class Human extends Animal {
-    public Human(final int power, final int initiative, final Position position, final World world) {
-        super(power, initiative, position, world);
+    public final static int POWER = 5;
+    public final static int INITIATIVE = 4;
+
+    public Human(final Position position, final World world) {
+        super(POWER, INITIATIVE, position, world);
     }
 
     public void action() {

@@ -1,6 +1,8 @@
-public class WolfBerries extends Plant{
-    public WolfBerries(final int power, final int initiative, final Position position, final World world) {
-        super(power, initiative, position, world);
+public class WolfBerries extends Plant {
+    public final static int POWER = 99;
+
+    public WolfBerries(final Position position, final World world) {
+        super(POWER, position, world);
     }
 
     public void action() {

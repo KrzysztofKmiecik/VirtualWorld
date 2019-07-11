@@ -1,6 +1,9 @@
 public class Grass extends Plant {
-    public Grass(final int power, final int initiative, final Position position, final World world) {
-        super(power, initiative, position, world);
+
+    public final static int POWER = 0;
+
+    public Grass(final Position position, final World world) {
+        super(POWER, position, world);
     }
 
     public void action() {

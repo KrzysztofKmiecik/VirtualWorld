@@ -1,6 +1,9 @@
 public class Sheep extends Animal {
-    public Sheep(final int power, final int initiative, final Position position, final World world) {
-        super(power, initiative, position, world);
+    public final static  int  POWER=4;
+    public final static  int  INITIATIVE=4;
+
+    public Sheep(final Position position, final World world) {
+        super(POWER, INITIATIVE, position, world);
     }
 
     public void action() {
